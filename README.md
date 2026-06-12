@@ -1,2 +1,5 @@
 # OscilloScopeFirmware
 Firmware for ESP32 CYD Based Dual Channel Oscilloscope. 
+
+FULL TUTOTRIAL TO BE ON INSTRUCTABLES
+README IS CURRENTLY WORK IN PROGRESS
