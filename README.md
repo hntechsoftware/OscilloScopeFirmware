@@ -13,5 +13,4 @@ For circuitry, the probe uses a 100nF ceramic capacitor to filter noise, a volta
 - Connect the CYD to the computer, select **ESP32 Dev Module** once the IDE recognises an UNKNOWN device on your COM port, and click Upload Sketch.
 - Following successful programming, assemble the probe circuitry as per the Instructables article. Optionally, 3D print a casing.
 
-FULL TUTOTRIAL TO BE ON INSTRUCTABLES
-README IS CURRENTLY WORK IN PROGRESS
+Read the Full Article on Instructables [HERE.](https://www.instructables.com/Mini-Lab-Portable-Oscilloscope/)
