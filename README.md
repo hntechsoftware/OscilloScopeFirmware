@@ -6,5 +6,12 @@ At a 1kHz sample rate, the ESP32 MCU samples its GPIO through its own onboard AD
 
 For circuitry, the probe uses a 100nF ceramic capacitor to filter noise, a voltage clamping setup using two Schottky Diodes to prevent the voltage going above/below 3.3V and damaging the GPIO pin, and a 2.2:1 voltage divider to enable the probe to be used with 5V devices (voltage values are scaled up in software to account for the divider).
 
+# Steps To Program CYD
+- Download the libraries TFT_eSPI and XPT2046_Touchscreen
+- Add ESP32 boards to the Arduino IDE Boards Manager
+- User_Setup.h is a Configuration file for the TFT-eSPI and XPT2046 touchscreens, the file on YOUR computer in `C:\Users\USERNAME\Documents\Arduino\libraries\TFT_eSPI` called User_Setup.h should be replaced with the one in this repository.
+- Connect the CYD to the computer, select **ESP32 Dev Module** once the IDE recognises an UNKNOWN device on your COM port, and click Upload Sketch.
+- Following successful programming, assemble the probe circuitry as per the Instructables article. Optionally, 3D print a casing.
+
 FULL TUTOTRIAL TO BE ON INSTRUCTABLES
 README IS CURRENTLY WORK IN PROGRESS
